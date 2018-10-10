@@ -2,7 +2,6 @@
 
 public class Booking {
 
-
     Bedroom bedroom;
     int numNights;
 
@@ -15,8 +14,9 @@ public class Booking {
         return bedroom;
     }
 
-
     public int getNumNights() {
         return numNights;
     }
+
+
 }
