@@ -19,4 +19,8 @@ public class Booking {
     }
 
 
+    public int totalBill() {
+
+        return numNights * bedroom.getNightRate();
+    }
 }

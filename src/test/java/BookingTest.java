@@ -28,7 +28,11 @@ public class BookingTest {
         assertEquals(2, booking.getNumNights());
     }
 
-
+    @Test
+    public void hasTotalBill(){
+        Booking booking = new Booking(bedroom, 2);
+        assertEquals(12, booking.totalBill());
+    }
 
 
 

@@ -21,7 +21,6 @@ public class BedroomTest {
     public void roomHasCapacity(){
         assertEquals(2, room1.getCapacity());
     }
-
     @Test
     public void hasRoomType(){
         assertEquals("double", room1.getRoomType());
@@ -29,7 +28,6 @@ public class BedroomTest {
 
     @Test
     public void hasNoGuests(){
-
         assertEquals(0, room1.getRoomGuestCount());
     }
 
