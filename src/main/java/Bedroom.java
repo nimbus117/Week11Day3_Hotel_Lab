@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Bedroom {
     int roomNumber;
-    int capacity
+    int capacity;
     ArrayList<Guest> guests;
     String roomType;
 
@@ -20,5 +20,9 @@ public class Bedroom {
         this.roomType = roomType;
         guests = new ArrayList<>();
 
+    }
+
+    public int getRoomNumber() {
+        return roomNumber;
     }
 }
