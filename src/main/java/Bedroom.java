@@ -25,4 +25,16 @@ public class Bedroom {
     public int getRoomNumber() {
         return roomNumber;
     }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public String getRoomType() {
+        return roomType;
+    }
+
+    public int getRoomGuestCount() {
+        return guests.size();
+    }
 }
