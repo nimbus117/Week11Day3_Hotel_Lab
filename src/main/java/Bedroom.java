@@ -37,4 +37,8 @@ public class Bedroom {
     public int getRoomGuestCount() {
         return guests.size();
     }
+
+    public void addGuest(Guest guest){
+        guests.add (guest);
+    }
 }

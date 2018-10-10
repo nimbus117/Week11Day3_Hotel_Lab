@@ -11,4 +11,30 @@ public class Hotel {
         this.diningRooms = diningRooms;
         this.conferenceRooms = conferenceRooms;
     }
+
+    public int getBedroomCount() {
+        return bedRooms.size();
+    }
+
+    public int getConferenceRoomCount() {
+        return diningRooms.size();
+    }
+
+    public int getDiningRoomCount() {
+        return conferenceRooms.size();
+    }
+
+
+    public Bedroom getBedroom(String type) {
+        for(Bedroom bedroom: bedRooms){
+            if (bedroom.getRoomType() == type){
+                return bedroom;
+            }
+        }
+        return null;
+    }
+
+    public void checkInGuest(Guest guest, Bedroom room) {
+        room.addGuest(guest);
+    }
 }
