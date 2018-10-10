@@ -41,4 +41,8 @@ public class Bedroom {
     public void addGuest(Guest guest){
         guests.add (guest);
     }
+
+    public void removeGuests() {
+        guests.clear();
+    }
 }
